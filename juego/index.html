@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<!-- meta tipos de caracteres especiales en la web -->
+		<meta charset="utf-8">
+		<!-- optimizar el sitio para moviles -->
+		<meta name="MobileOptimizer" content="width"/>
+		<!-- optimizacion para cualquier dispositivo -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- descripción del sitio web -->
+		<meta name="description" content="Sistema online para ayuda y guía de estudiantes y futuros estudiantes, gestión del plantel a través de módulos como son:
+		registro de alumnos, reporte de alumnos, Recorrido Virtual de las áreas que conforman al plantel, Desarrollo de Juego Interactivos para el aprendizaje de las distintas carreras que ofrece la institución">
+		<!-- palabras claves para el seo -->
+		<meta name="keywords" content="Sistema Online, juego, Reportes de Asistencia, Recorrido Virtual, Juegos Interactivos, Guía de estudiantes, Conalep Naucalpan 1, Gestión de planteles, Carreras Técnicas">
+ 		<!-- meta para el autor del sitio  -->
+		<meta name="autor" content="Borderline">
+		<!-- el de la marca --->
+		<meta name="copyright" content="Borderline & Conactive">
+		<meta name="robots" content="index/">
+	<title>Juego | Videojuegos</title>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<link rel="stylesheet" type="text/css" href="../pincipal/css/fontello.css">
+	<link rel="stylesheet" type="text/css" href="../pincipal/css/bootstrap.min.css">
+</head>
+<body>
+	<!--Inicia Navbar-->
+	    <nav class="navbar navbar-expand-lg navbar-light" style="background: linear-gradient(to left, #333333 ,#9933ff, #66ccff )">
+	      <a href="#"><img src="../img1.png" alt="LogoE" style="width: 120px; height: 100px;"></a>
+	        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+	          <span class="navbar-toggler-icon"></span>
+	        </button>
+	          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+	              <ul class="navbar-nav ml-auto">
+	                  <li class="nav-item active">
+	                    <a class="nav-link" style="color: #ddd" href="project.php">Inicio <span class="sr-only">(current)</span></a>
+	                  </li>
+	                  <li class="nav-item">
+	                    <a class="nav-link" style="color: #ddd" href="#">Conocenos</a>
+	                  </li>
+	                  <li class="nav-item active" style="list-style: none">
+	                    <a class="nav-link disabled" style="color: #ddd"  href="#" tabindex="-1" aria-disabled="true">Bienvenid@</a>
+	                  </li>
+	                  <!--Inicia lista despegable-->
+	                    <li class="nav-item dropdown">
+	                      <a class="nav-link dropdown-toggle text-white" href="#" id="opciones" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	                        <img src="../pincipal/img/dino.png" alt="Perfil" style="width: 30px; height:30px; border-radius:50%; ">
+	                      </a>
+	                      <div class="dropdown-menu" aria-labelledby="opciones">
+	                        <a class="dropdown-item" href="#"> <span class="icon-cog"></span>Perfil</a>
+	                        <a class="dropdown-item" href="#">Ayuda</a>
+	                        <a class="dropdown-item" href="cerrar.php">Cerrar sesión</a>
+	                      </div>
+	                    </li>
+	                  <!--Termina lista despegable-->
+	            </ul>
+	          </div>
+	        </nav>
+	  <!--Termina navbar-->
+<!---->
+<!--Inicia contenido-->
+<div class="container" style="margin-top: 80px; background: #99ccff" >
+<div class="container">
+	<h1 align= center>Accumulates Points</h1>
+	<div class="card">
+			<h4 class="text-center text-muted py-2">Acumula puntos antes de que se termine el tiempo</h4>
+		<button type="button" class="btn btn-outline-warning"><a href="../videojuegos/PaginaVideoJuegos.php">Regresar atras</a></button>
+		<!--Inicia juego-->
+			<div class="container">
+				<div class="contenedor pointer">
+					<span id="puntos"></span>
+					<span id="ned"></span>
+					<span id="tiempo"></span>
+				</div>
+				<div class="contenedor">
+					<div id="player"></div>
+				</div>
+					<br>
+					<br>
+			</div>
+		<!--Termina Juego-->
+	</div>
+</div>
+<!--Termina contenido-->
+		<div class="container">
+				<p class="text-center py-2">
+					<span class="icon-copyright"></span><img src="../pincipal/img/logo.png" alt="Logotipo Borderline" class="logo" style="width: 105px;
+					height: 40px">
+				</p>
+</div>
+</div>
+<!---->
+
+<script src="js/script.js"></script>
+</body>
+</html>
