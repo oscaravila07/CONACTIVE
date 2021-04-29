@@ -1,2 +1,2 @@
-# proyecto_505
- Proyecto de la página web, entrega final; 5to semestre.
+# proyecto
+ Proyecto de la página web
