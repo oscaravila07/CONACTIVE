@@ -135,9 +135,7 @@ $usuario = $_SESSION['Usuario'];
 <!--INICIA RECORRIDO-->
 <div class="container">
   <h2 class="py-3">Tour Virtual</h2>
-  <div class="col aling-middle">
-<iframe src="https://www.google.com/maps/embed?pb=!4v1608289626267!6m8!1m7!1sCAoSLEFGMVFpcE0xb1Znc2psQkNqNFZXQkpYSC1ZRjZjMGE4RTFueFBjelNFWHZh!2m2!1d19.4480552!2d-99.26927909999999!3f19.57!4f30.040000000000006!5f0.7820865974627469" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-</div>
+ <iframe width="100%" height="480px" src="https://poly.google.com/view/3Z1fruwFnEQ/embed?chrome=min" frameborder="0" style="border:none;" allowvr="yes" allow="vr; xr; accelerometer; magnetometer; gyroscope; autoplay;" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel="" ></iframe>
 </div>
 <!--Termina recorrido-->
 <!--termina seccion servicios-->
