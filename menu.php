@@ -1,6 +1,6 @@
 <!--Inicia Navbar-->
 <link rel="stylesheet" type="text/css" href="../pincipal/css/fontello.css">
-    <nav class="navbar navbar-expand-lg navbar-light" style="background: linear-gradient(to left, #333333 ,#9933ff, #66ccff )">
+    <nav class="navbar navbar-expand-lg navbar-light" style="background: linear-gradient(to left, #eac3a3, #95cbc8, #95cbc8)">
       <a href="#"><img src="../img1.png" alt="LogoE" style="width: 90px; height: 70px;"></a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
