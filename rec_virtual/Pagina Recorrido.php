@@ -50,10 +50,10 @@ $usuario = $_SESSION['Usuario'];
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="img/img3.png" class="d-block w-100" alt="0" style="width:100%; height: 500px;">
+      <img src="img/img4.jpg" class="d-block w-100" alt="0" style="width:100%; height: 500px;">
       <div class="carousel-caption d-none d-md-block">
-          <h2 class="text-center slider">¡BIENVENID@ AL RECORRIDO VIRTUAL!</h2>
-            <p>"Conoce tu institución"</p>
+          <h2 class="text-center slider"></h2>
+            <p></p>
       </div>
     </div>
     <div class="carousel-item">
