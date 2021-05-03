@@ -25,7 +25,7 @@ $usuario = $_SESSION['Usuario'];
      <link rel="stylesheet" type="text/css" href="css/fontello.css">
      <link rel="stylesheet" type="text/css" href="css/preloader.css">
      <link rel="stylesheet" type="text/css" href="css/main.css">
-     <link rel="stylesheet" type="text/css" href="redes.css">
+     <link rel="stylesheet" type="text/css" href="css/redes.css">
     
      <script src="js/jquery-3.5.1.min.js"></script>
      <title> Recorrido Virtual</title>
