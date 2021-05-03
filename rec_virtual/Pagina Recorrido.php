@@ -25,6 +25,8 @@ $usuario = $_SESSION['Usuario'];
      <link rel="stylesheet" type="text/css" href="css/fontello.css">
      <link rel="stylesheet" type="text/css" href="css/preloader.css">
      <link rel="stylesheet" type="text/css" href="css/main.css">
+     <link rel="stylesheet" type="text/css" href="redes.css">
+    
      <script src="js/jquery-3.5.1.min.js"></script>
      <title> Recorrido Virtual</title>
   </head>
@@ -137,11 +139,22 @@ $usuario = $_SESSION['Usuario'];
   <h2 class="py-3">Tour Virtual</h2>
  <iframe width="100%" height="480px" src="https://poly.google.com/view/3Z1fruwFnEQ/embed?chrome=min" frameborder="0" style="border:none;" allowvr="yes" allow="vr; xr; accelerometer; magnetometer; gyroscope; autoplay;" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel="" ></iframe>
 </div>
+
+<div class="social">
+  <ul>
+    <li><a href="https://www.facebook.com/BorderlineMexico" target ="_blank" class="icon-facebook-rect"></a></li>
+
+    <li><a href="https://twitter.com/Borderline_mex?fbclid=IwAR2hb9iYPsIS4zulDei5bnZjRj3TXfRR2UUqAS58z6mrfqlkqy5rFdpU9aE" target ="_blank" class="icon-twitter-bird"></a></li>
+
+    <li><a href="https://www.instagram.com/borderline_mexico/?fbclid=IwAR0Kscn-Oott6IvaTzz0ar9omAcSQD7IZsN5ozXznmKeTThojr78OWGQbYE" target ="_blank" class="icon-instagram-filled"></a></li>
+  </ul>
+</div>
 <!--Termina recorrido-->
 <!--termina seccion servicios-->
     <!-- termina el contenido de la web -->
      <script src="js/bootstrap.min.js"></script>
      <script src="js/preloader.js"></script>
      <script src="js/main.js"></script>
+     <script type="css/redes.css"></script>
   </body>
 </html>
