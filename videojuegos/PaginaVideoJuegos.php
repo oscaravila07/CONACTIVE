@@ -46,7 +46,7 @@ $usuario = $_SESSION['Usuario'];
     </ol>
         <div class="carousel-inner">
         <div class="carousel-item active">
-        <img src="img/slaider1.jpg" class="d-block w-100" alt="Slider1">
+        <img src="img/img5.jpg" class="d-block w-100" alt="Slider1">
     </div>
         <div class="carousel-item">
         <img src="img/slaider2.png" class="d-block w-100" alt="Slider2">
