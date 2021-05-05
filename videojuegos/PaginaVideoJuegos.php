@@ -25,6 +25,7 @@ $usuario = $_SESSION['Usuario'];
     <link rel="stylesheet" type="text/css" href="css/fontello.css">
     <link rel="stylesheet" type="text/css" href="css/preloader.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/redes.css">
     <script src="js\jquery-3.5.1.min.js"></script>
     <title>Juegos Interactivos</title>
 </head>
@@ -46,20 +47,20 @@ $usuario = $_SESSION['Usuario'];
     </ol>
         <div class="carousel-inner">
         <div class="carousel-item active">
-        <img src="img/img5.jpg" class="d-block w-100" alt="Slider1">
+        <img src="img/img1.jpg" class="d-block w-100" alt="Slider1">
     </div>
         <div class="carousel-item">
-        <img src="img/slaider2.png" class="d-block w-100" alt="Slider2">
+        <img src="img/img2.jpg" class="d-block w-100" alt="Slider2">
         <div class="carousel-caption d-none d-md-block">
-        <h5>Registrate</h5>
-        <p>Somos la mejor opcion para jugar y aprender.</p>
+        <h5></h5>
+        <p></p>
     </div>
     </div>
         <div class="carousel-item">
-        <img src="img/slaider3.png" class="d-block w-100" alt="Slider3">
+        <img src="img/img2.jpg" class="d-block w-100" alt="Slider3">
         <div class="carousel-caption d-none d-md-block">
-        <h5>Conocenos</h5>
-        <p>Somos la mejor opcion para ti.</p>
+        <h5></h5>
+        <p></p>
     </div>
     </div>
     </div>
@@ -355,6 +356,18 @@ $usuario = $_SESSION['Usuario'];
     </div>
   </div>
 </footer>
+
+
+<div class="social">
+  <ul>
+    <li><a href="https://www.facebook.com/BorderlineMexico" target ="_blank" class="icon-facebook-rect"></a></li>
+
+    <li><a href="https://twitter.com/Borderline_mex?fbclid=IwAR2hb9iYPsIS4zulDei5bnZjRj3TXfRR2UUqAS58z6mrfqlkqy5rFdpU9aE" target ="_blank" class="icon-twitter-bird"></a></li>
+
+    <li><a href="https://www.instagram.com/borderline_mexico/?fbclid=IwAR0Kscn-Oott6IvaTzz0ar9omAcSQD7IZsN5ozXznmKeTThojr78OWGQbYE" target ="_blank" class="icon-instagram-filled"></a></li>
+  </ul>
+</div>
+
 <!--termina -footer-->
 </div>
 <!--termina contenido de la web-->
