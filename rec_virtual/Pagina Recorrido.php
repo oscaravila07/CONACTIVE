@@ -155,6 +155,5 @@ $usuario = $_SESSION['Usuario'];
      <script src="js/bootstrap.min.js"></script>
      <script src="js/preloader.js"></script>
      <script src="js/main.js"></script>
-     <script type="css/redes.css"></script>
   </body>
 </html>
