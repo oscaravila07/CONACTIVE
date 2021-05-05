@@ -59,24 +59,24 @@ $usuario = $_SESSION['Usuario'];
       </div>
     </div>
     <div class="carousel-item">
-      <img src="../pincipal/img/map3.jpeg" class="d-block w-100" alt="1" style="width:100%; height: 500px;">
+      <img src="img/img3.jpg" class="d-block w-100" alt="1" style="width:100%; height: 500px;">
       <div class="carousel-caption d-none d-md-block">
-        <h2 class="text-center slider">¡BIENVENID@ AL RECORRIDO VIRTUAL!</h2>
-          <p>"Conoce más acerca de nosotros"</p>
+        <h2 class="text-center slider"></h2>
+          <p></p>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="../pincipal/img/map4.jpeg" class="d-block w-100" alt="2" style="width:100%; height: 500px;">
+      <img src="img/img5.jpg" class="d-block w-100" alt="2" style="width:100%; height: 500px;">
       <div class="carousel-caption d-none d-md-block">
-        <h2 class="text-center slider">¡BIENVENID@ AL RECORRIDO VIRTUAL!</h2>
-          <p>"Registrate"</p>
+        <h2 class="text-center slider"></h2>
+          <p></p>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="../pincipal/img/map1.jpeg" class="d-block w-100" alt="2" style="width:100%; height: 500px;">
+      <img src="img/img3.jpg" class="d-block w-100" alt="2" style="width:100%; height: 500px;">
       <div class="carousel-caption d-none d-md-block">
-        <h2 class="text-center slider">¡BIENVENID@ AL RECORRIDO VIRTUAL!</h2>
-          <p>"Recorre más lugares virtualmente"</p>
+        <h2 class="text-center slider"></h2>
+          <p></p>
       </div>
     </div>
   </div>
