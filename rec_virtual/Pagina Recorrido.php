@@ -139,7 +139,12 @@ $usuario = $_SESSION['Usuario'];
   <h2 class="py-3">Tour Virtual</h2>
  <iframe width="100%" height="480px" src="https://poly.google.com/view/3Z1fruwFnEQ/embed?chrome=min" frameborder="0" style="border:none;" allowvr="yes" allow="vr; xr; accelerometer; magnetometer; gyroscope; autoplay;" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel="" ></iframe>
 </div>
-
+<!--INICIO DEL VIDEO-->
+<div class="container text-center mb-5" style="margin-top:3rem;">
+<h3>Conoce más sobre CONALEP</h3>
+    <iframe width="790" height="515" src="https://www.youtube.com/embed/lwLQ8AI1Dpo" title="Conocer mas sobre Conalep" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<!--TERMINA EL VIDEO-->
 <div class="social">
   <ul>
     <li><a href="https://www.facebook.com/BorderlineMexico" target ="_blank" class="icon-facebook-rect"></a></li>
