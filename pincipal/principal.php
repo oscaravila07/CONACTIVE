@@ -29,6 +29,11 @@ $conecta->close();
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/main2.css">
     <link rel="stylesheet" type="text/css" href="css/fontello.css">
+    <link rel="stylesheet" type="text/css" href="css/darkmode.css">
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <script src="includes/push/push.min.js"></script>
     <script src="js/jquery-3.5.1.min.js"></script>
     <title>Sistema | Conactive</title>
@@ -50,12 +55,22 @@ $conecta->close();
         <!--Termina notificaciones-->
   </head>
   <body>
+    <!--Nigmacode Designs-->
+    <div id="page" class="wrapper">
+        <div class="container-btn-mode">
+          <div id="id-sun" class="btn-mode sun active">
+            <i class="fas fa-sun"></i>
+          </div>
+          <div id="id-moon" class="btn-mode moon">
+            <i class="fas fa-moon"></i>
+          </div>
+        </div>      
     <!--Inicia Navbar y sidebar-->
      <?php include 'main/sidebar.php' ?>
      <div id="page-content-wrapper">
       <?php include 'main/navbar.php' ?>
       <!--Inicia contenido-->
-       <div class="container py-5">
+       <div class="container py-5 class="bg-dark"">
          <h4 class="text-center">Módulos Interactivos</h4>
           <div class="container py-3">
             <div class="row" data-aos="fade-down">
@@ -104,7 +119,7 @@ $conecta->close();
        <!--Termina contenido-->
       </div>
     <!--Termina Navbar y sidebar-->
-
+    </div>
     <script src="js/bootstrap.min.js"></script>
   </body>
 </html>
